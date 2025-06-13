@@ -1,12 +1,20 @@
 public class Main {
     public static void main(String[] args) throws Exception {
 
-    //Quadrilatero
-    System.out.println("Cálculo dos quadriláteros: ");
-    Quadrilatero.area(5);
-    Quadrilatero.area(10d,10d);
-    Quadrilatero.area(10,7,9);
-    Quadrilatero.area(5f,5f);
+        //Returns
+        System.out.println("Praticando o uso de return: ");
+
+        double areaQuadrado = Quadrilatero.area(3);
+        System.out.println("Área do quadrado: " + areaQuadrado);
+
+        double areaRetangulo = Quadrilatero.area(5d,5d);
+        System.out.println("Área do retângulo: " + areaRetangulo);
+
+        double areaTrapezio = Quadrilatero.area(7,8,9);
+        System.out.println("Área do trapézio: " + areaTrapezio);
+
+        double areaLosango = Quadrilatero.area(10f,10f);
+        System.out.println("Área do losango: " + areaLosango);
 
     }
 }
