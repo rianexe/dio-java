@@ -1,18 +1,17 @@
-## Getting Started
+# Desafio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sua irmã está com o computador muito lento e pediu para você formata-lo. Mas ela gostaria muito de que todas as músicas dela fossem salvas e não deletadas com o resto dos arquivos durante a formatação. Todas as músicas estão no formato .mp3
+Crie um programa que cada arquivo com esse formato não seja deletado.
 
-## Folder Structure
+## Entrada
+A entrada será uma String com o nome da música e seu formato.
 
-The workspace contains two folders by default, where:
+## Saída
+A saída deve ser se o arquivo será salvo ou não.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Entrada	Saída
+   "minhasamigas.png"  	      "Deletar"   
+   "Californication.mp3"	      "Salvar"
+   "Zeca Pagodinho - Algum Completo.rar" 	      "Deletar"
