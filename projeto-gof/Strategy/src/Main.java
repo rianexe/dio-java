@@ -17,5 +17,8 @@ public class Main {
 
         robo.setComportamento(agressivo);
         robo.mover();
+
+        robo.setComportamento(agressivo);
+        robo.mover();
     }
 }
